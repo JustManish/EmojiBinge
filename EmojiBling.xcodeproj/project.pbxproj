@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0459FC2426DC89FC00914EB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459FC2326DC89FC00914EB7 /* AppDelegate.swift */; };
 		0459FC2626DC89FC00914EB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459FC2526DC89FC00914EB7 /* SceneDelegate.swift */; };
-		0459FC2826DC89FC00914EB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459FC2726DC89FC00914EB7 /* ViewController.swift */; };
+		0459FC2826DC89FC00914EB7 /* EmojiBlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459FC2726DC89FC00914EB7 /* EmojiBlingViewController.swift */; };
 		0459FC2B26DC89FC00914EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0459FC2926DC89FC00914EB7 /* Main.storyboard */; };
 		0459FC2D26DC89FD00914EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0459FC2C26DC89FD00914EB7 /* Assets.xcassets */; };
 		0459FC3026DC89FD00914EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0459FC2E26DC89FD00914EB7 /* LaunchScreen.storyboard */; };
@@ -38,17 +38,15 @@
 		0459FC2026DC89FC00914EB7 /* EmojiBling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiBling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0459FC2326DC89FC00914EB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0459FC2526DC89FC00914EB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0459FC2726DC89FC00914EB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0459FC2726DC89FC00914EB7 /* EmojiBlingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBlingViewController.swift; sourceTree = "<group>"; };
 		0459FC2A26DC89FC00914EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0459FC2C26DC89FD00914EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0459FC2F26DC89FD00914EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0459FC3126DC89FD00914EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0459FC3626DC89FE00914EB7 /* EmojiBlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiBlingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0459FC3A26DC89FE00914EB7 /* EmojiBlingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBlingTests.swift; sourceTree = "<group>"; };
-		0459FC3C26DC89FE00914EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0459FC4126DC89FE00914EB7 /* EmojiBlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiBlingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0459FC4526DC89FE00914EB7 /* EmojiBlingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBlingUITests.swift; sourceTree = "<group>"; };
-		0459FC4726DC89FE00914EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +99,7 @@
 			children = (
 				0459FC2326DC89FC00914EB7 /* AppDelegate.swift */,
 				0459FC2526DC89FC00914EB7 /* SceneDelegate.swift */,
-				0459FC2726DC89FC00914EB7 /* ViewController.swift */,
+				0459FC2726DC89FC00914EB7 /* EmojiBlingViewController.swift */,
 				0459FC2926DC89FC00914EB7 /* Main.storyboard */,
 				0459FC2C26DC89FD00914EB7 /* Assets.xcassets */,
 				0459FC2E26DC89FD00914EB7 /* LaunchScreen.storyboard */,
@@ -114,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				0459FC3A26DC89FE00914EB7 /* EmojiBlingTests.swift */,
-				0459FC3C26DC89FE00914EB7 /* Info.plist */,
 			);
 			path = EmojiBlingTests;
 			sourceTree = "<group>";
@@ -123,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				0459FC4526DC89FE00914EB7 /* EmojiBlingUITests.swift */,
-				0459FC4726DC89FE00914EB7 /* Info.plist */,
 			);
 			path = EmojiBlingUITests;
 			sourceTree = "<group>";
@@ -258,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0459FC2826DC89FC00914EB7 /* ViewController.swift in Sources */,
+				0459FC2826DC89FC00914EB7 /* EmojiBlingViewController.swift in Sources */,
 				0459FC2426DC89FC00914EB7 /* AppDelegate.swift in Sources */,
 				0459FC2626DC89FC00914EB7 /* SceneDelegate.swift in Sources */,
 			);
@@ -439,6 +435,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GY8C66TYQJ;
 				INFOPLIST_FILE = EmojiBling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GY8C66TYQJ;
 				INFOPLIST_FILE = EmojiBling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
