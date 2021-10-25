@@ -8,6 +8,8 @@
 import ARKit
 import UIKit
 
+//view controller for adding Emojis on detected face!
+
 class EmojiBlingViewController: UIViewController {
 
     @IBOutlet var sceneView: ARSCNView!
